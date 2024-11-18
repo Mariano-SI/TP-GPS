@@ -5,6 +5,8 @@
 *{
   margin: 0; 
   padding: 0; 
+  font-family: "Poppins", sans-serif;
+  color: black;
 }
 
 ul[role='list'], ol[role='list']{
@@ -17,6 +19,9 @@ html:focus-within{
 
 a:not([class]){
   text-decoration-skip-ink: auto; 
+}
+body{
+  background-color: #F0E6E6;
 }
 
 img, picture, svg, video, canvas{
@@ -48,4 +53,9 @@ input, button, textarea, select{
 body, html{
   height: 100%; 
   scroll-behavior: smooth; 
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
 }
