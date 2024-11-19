@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeStyled = styled.div`
-    min-height: 100vh;
+    min-height: calc(100vh - 120px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@ export const HomeStyled = styled.div`
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 100px;
-        max-width: 1200px;
+        max-width: 1100px;
         width: 100%;
         padding: 0 20px;
     }
