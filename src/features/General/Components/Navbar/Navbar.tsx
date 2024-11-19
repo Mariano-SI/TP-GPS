@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { NavbarStyled } from './Navbar.style'
+import decomLogo from '../../../../assets/logo decom.png'
+
 
 
 
@@ -8,7 +10,7 @@ function Navbar() {
   return (
     <NavbarStyled>
         <nav className='headerNav'>
-            <h1>NOME</h1>
+            <img src={decomLogo} alt="" className='logo'/>
             <ul className='headerLinksContainer'>
                 <li className='link'>
                     <NavLink to="/" >
@@ -16,7 +18,7 @@ function Navbar() {
                     </NavLink>
                 </li>
                 <li className='link'>
-                    <NavLink to="/faq" >
+                    <NavLink to="faq" >
                     FAQ
                     </NavLink>
                 </li>

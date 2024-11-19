@@ -33,4 +33,11 @@ export const NavbarStyled = styled.header`
         background-color: #000;
     }
 
+    .logo{
+        max-width: 100%;
+        object-fit: contain;
+        width: 150px;
+    }
+    
+
 `
