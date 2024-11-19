@@ -10,7 +10,10 @@ function Navbar() {
   return (
     <NavbarStyled>
         <nav className='headerNav'>
-            <img src={decomLogo} alt="" className='logo'/>
+            <h1 className='logo'>
+                <span className='green'>&#123;&#39;</span>
+                    FAQ Universitário 
+                <span className='green'>&#39;&#58;&#125;</span></h1>
             <ul className='headerLinksContainer'>
                 <li className='link'>
                     <NavLink to="/" >

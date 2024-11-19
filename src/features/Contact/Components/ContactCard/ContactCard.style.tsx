@@ -60,6 +60,6 @@ export const ContactCardStyled = styled.div`
     }
 
     .iconContainer > svg{
-        fill: #5F3B9C;
+        fill: #004E8F;
     }
 ` 

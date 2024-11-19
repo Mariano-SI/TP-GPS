@@ -7,6 +7,16 @@ export const NavbarStyled = styled.header`
     background-color: #fff;
     width: 100%;
 
+    .logo{
+        color: #004E8F;
+        white-space: nowrap;
+        font-size: 24px;
+
+    }
+    .green{
+        color: #A4D988;
+    }
+
     .headerNav{
         display: flex;
         justify-content: space-between;
