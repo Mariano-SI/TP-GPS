@@ -4,6 +4,8 @@ export const HomeStyled = styled.div`
     min-height: calc(100vh - 120px);
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 40px;
     justify-content: center;
 
     .contentContainer {
@@ -45,4 +47,36 @@ export const HomeStyled = styled.div`
         height: 100%;
         object-fit: cover;
     }
+
+    .support{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .supportlogos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+  }
+
+  .logoContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
 `
