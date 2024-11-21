@@ -9,6 +9,12 @@ export const QuestionCardStyled = styled.div`
     flex-direction: column;
     gap:20px;
 
+    .theme{
+        font-size: 14px;
+        font-weight: 500;
+        color: #004E8F;
+    }
+
     .cardHeader{
         display: flex;
         justify-content: space-between;

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeStyled = styled.div`
-    min-height: calc(100vh - 120px);
+    min-height: calc(100vh - 300px);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -75,7 +75,7 @@ export const HomeStyled = styled.div`
   }
 
   .logoContainer img {
-    max-width: 100%;
+    max-width: 85%;
     max-height: 100%;
     object-fit: contain;
   }

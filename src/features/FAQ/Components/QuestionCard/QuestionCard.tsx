@@ -7,15 +7,19 @@ interface IAwswerCardProps{
   question: string,
   answer: string,
   openCard: boolean,
+  theme: string,
   onClick: () => void
 }
 
-function QuestionCard({question, answer, openCard, onClick}: IAwswerCardProps) {
+function QuestionCard({question, answer, theme, openCard, onClick}: IAwswerCardProps) {
   return (
     <QuestionCardStyled onClick={onClick}>
-      <div className='cardHeader'>
-        <p>{question}</p>
-        {openCard ? <CloseRoundedIcon className="icon"/> : <AddIcon className="icon"/>}
+      <div>
+        <p className='theme'>{theme}</p>
+        <div className='cardHeader'>
+          <p>{question}</p>
+          {openCard ? <CloseRoundedIcon className="icon"/> : <AddIcon className="icon"/>}
+        </div>
       </div>
       {openCard && 
         <p className='answer'>{answer}</p>
