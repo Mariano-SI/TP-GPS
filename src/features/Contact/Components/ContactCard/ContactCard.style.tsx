@@ -62,4 +62,5 @@ export const ContactCardStyled = styled.div`
     .iconContainer > svg{
         fill: #004E8F;
     }
+
 ` 
