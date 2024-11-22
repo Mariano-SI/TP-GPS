@@ -23,6 +23,11 @@ export const NavbarStyled = styled.header`
         align-items: center;
         max-width: 1200px;
         margin: 0 auto;
+
+        @media (max-width: 1300px;) {
+            flex-direction: column;
+            height: auto;
+        }
     }
 
     .headerLinksContainer{

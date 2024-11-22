@@ -200,7 +200,7 @@ function Faq() {
       setQuestions(perguntas)
       return
     }
-    const filteredQuestions = perguntas.filter(({pergunta}) => pergunta.toLowerCase().includes(search.toLowerCase()))
+    const filteredQuestions = perguntas.filter(({pergunta, tema}) => pergunta.toLowerCase().includes(search.toLowerCase()) || tema.toLowerCase().includes(search.toLowerCase()))
     setQuestions(filteredQuestions)
   }, [search])
 
@@ -228,7 +228,7 @@ function Faq() {
             type="text" 
             value={search} 
             onChange={(e) => setSearch(e.target.value)}
-            placeholder='Pesquise sua dúvida aqui...'
+            placeholder='Pesquise sua dúvida ou tema aqui...'
           />
           <div onClick={() => setSearch('')}><ClearRoundedIcon/></div>
         </div>

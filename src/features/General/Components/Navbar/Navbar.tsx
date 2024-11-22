@@ -12,7 +12,7 @@ function Navbar() {
         <nav className='headerNav'>
             <h1 className='logo'>
                 <span className='green'>&#123;&#39;</span>
-                    FAQ Universitário 
+                    FAQ SI
                 <span className='green'>&#39;&#58;&#125;</span></h1>
             <ul className='headerLinksContainer'>
                 <li className='link'>
