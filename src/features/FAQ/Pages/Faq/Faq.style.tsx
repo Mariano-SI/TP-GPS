@@ -7,7 +7,11 @@ export const FaqStyled = styled.div`
     flex-direction: column;
     padding-top: 12px;
     gap:20px;
-
+    @media (max-width: 768px){
+        padding: 0 30px;
+        margin-top: 160px;
+    }
+    
     .questionsContainer{
         display: flex;
         flex-direction: column;

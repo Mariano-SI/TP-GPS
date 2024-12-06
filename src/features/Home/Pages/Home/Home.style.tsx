@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HomeStyled = styled.div`
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 304px);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -16,6 +16,18 @@ export const HomeStyled = styled.div`
         max-width: 1100px;
         width: 100%;
         padding: 0 20px;
+    }
+
+    @media (max-width: 768px) {
+        .contentContainer{
+            grid-template-columns: 1fr;
+            margin-top: 80px;
+        }
+
+        .introductionContainer{
+            grid-row: 1;
+        }
+     
     }
 
     .introductionContainer{

@@ -18,6 +18,7 @@ export const QuestionCardStyled = styled.div`
     .cardHeader{
         display: flex;
         justify-content: space-between;
+        cursor: pointer;
     }
     .cardHeader> svg{
         cursor: pointer;

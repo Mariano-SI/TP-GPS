@@ -12,6 +12,7 @@ export const ContactPageStyled = styled.div`
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        gap:30px
+        gap:30px;
+        padding: 0 30px;
     }
 `
