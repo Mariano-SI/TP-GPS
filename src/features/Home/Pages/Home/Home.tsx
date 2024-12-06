@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { HomeStyled } from './Home.style'
 import studentsImage from '../../../../assets/students-edital-1024x683.jpg'
 import decomLogo from '../../../../assets/logo decom.png'

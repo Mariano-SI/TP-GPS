@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { ContactPageStyled } from './ContactPage.style'
 import ContactCard from '../../Components/ContactCard/ContactCard'
 
@@ -11,7 +11,7 @@ const contacts = [
     { contactName: 'Vice coordenador', answerable: 'Leonardo Lana de Carvalho', phone: null, email: 'lanadecarvalholeonardo@gmail.com', photo: null }, { contactName: 'Secretário', answerable: 'Evandro das Mercês Amorim', phone: '(38) 3532-1223', email: 'secretaria.si@ufvjm.edu.br', photo: null } 
 ]
 
-function ContactPage({}: Props) {
+function ContactPage() {
   return (
     <ContactPageStyled>
         <h2>Gostaria de falar diretamente ?</h2>
@@ -21,9 +21,9 @@ function ContactPage({}: Props) {
                     key={index}
                     name={contact.contactName}
                     answerable={contact.answerable}
-                    phone={contact.phone}
+                    phone={contact.phone ? contact.phone : 'Não informado'}
                     email={contact.email}
-                    photo={contact.photo}
+                    photo={contact.photo ? contact.photo : ''}
                 />
             ))}
         </div>

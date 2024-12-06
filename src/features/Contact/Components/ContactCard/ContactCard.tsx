@@ -1,15 +1,15 @@
-import React from 'react'
+
 import { ContactCardStyled } from './ContactCard.style'
 import defaultPhoto from '../../../../assets/default.jpg'  
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
 import MailRoundedIcon from '@mui/icons-material/MailRounded';
 
 interface IContactCardProps{
-    name: string
-    answerable: string
-    phone: string
-    email: string
-    photo?: string
+    name: string;
+    answerable: string;
+    phone: string;
+    email: string;
+    photo?: string;
 }
 
 function ContactCard({name, answerable, phone, email, photo}: IContactCardProps) {

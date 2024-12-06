@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { SearchWithoutResultStyled } from './SearchWithoutResult.style'
 import SentimentDissatisfiedRoundedIcon from '@mui/icons-material/SentimentDissatisfiedRounded';
 

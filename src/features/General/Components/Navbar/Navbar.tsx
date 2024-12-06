@@ -1,10 +1,6 @@
-import React from 'react'
+
 import { Link, NavLink } from 'react-router-dom';
 import { NavbarStyled } from './Navbar.style'
-import decomLogo from '../../../../assets/logo decom.png'
-
-
-
 
 function Navbar() {
   return (
