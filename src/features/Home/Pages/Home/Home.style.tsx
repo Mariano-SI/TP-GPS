@@ -7,6 +7,7 @@ export const HomeStyled = styled.div`
     flex-direction: column;
     gap: 40px;
     justify-content: center;
+    padding-bottom: 100px;
 
     .contentContainer {
         display: grid;
@@ -15,7 +16,6 @@ export const HomeStyled = styled.div`
         max-width: 1100px;
         width: 100%;
         padding: 0 20px;
-
     }
 
     .introductionContainer{
